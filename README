@@ -1,0 +1,23 @@
+BIN2TXT 1.0
+Binary to Text Converter
+By young[dot]zach[at]gmail[dot]com 
+
+CONTENTS:
+convert.h	Conversion definitions
+convert.c	Conversion source
+driver.c	Driver source
+makefile	Make file for the program
+COPYING		A copy of the GNU GPL license
+README		This information file
+
+USE:
+Program converts a binary file into an ASCII text file.  This enables the user 
+to view a file in binary with notepad.  Instead of seeing a garbled ASCII 
+interpretation of the file, the user will see a file consisting of an 
+arbitrary number of ones and zeros split into byte sized chunks. To convert 
+input type './bin2txt < input_file_name
+
+BUILDING
+To build the source type 'make' on the command line. This program was built 
+in Linux using GCC. Other compilers should also work, but it has not been 
+tested.
